@@ -1,0 +1,47 @@
+body{
+    font-family: arial;
+    font-size: 20px;
+    margin: 0;
+    background:linear-gradient(to right bottom, #783c3c, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section p {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.texts p {
+    color:black;
+    text-align: right;
+    width: 100%;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+section button {
+    background:rgb(121, 48, 48);
+    height: 35px;
+    min-width: 540px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 10px;
+    
+}
